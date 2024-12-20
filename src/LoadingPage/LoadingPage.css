@@ -1,0 +1,46 @@
+div.loadingpage img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+   
+ 
+    
+
+}
+div.loadingpage {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+div.loadingpage span.iconmelodies {
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+}
+div.loadingpage .loading {
+    position:absolute;
+    top:40%;
+    left:40%;
+    transform: translate()
+}
+div.content {
+    display:flex;
+    flex-direction: column;
+}
+.loadingicon {
+    animation:spin 2s linear infinite
+}
+@keyframes spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}

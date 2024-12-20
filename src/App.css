@@ -1,0 +1,30 @@
+.melodies_web {
+  display: flex;
+}
+
+.sidebar {
+  width: 266px;
+  background-color: #0E1920;
+  display:flex;
+  flex-direction: column;
+  
+}
+
+.content {
+  flex: 1;
+  background-color: #412C3A;
+  padding: 10px;
+}
+.sidebar h1 {
+  background:linear-gradient(to right, #EE10B0,#0E9EEF);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  color: transparent;
+  padding:20px
+}
+.content {
+  display:flex;
+  flex-direction: column;
+  gap:40px
+}

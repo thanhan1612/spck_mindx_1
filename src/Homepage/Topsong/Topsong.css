@@ -1,0 +1,62 @@
+div.songsdisplay {
+    display: flex;
+    flex-direction: column;
+    gap:20px
+}
+div.topsong .songs {
+    color:#EE10B0;
+}
+div.container {
+    display: flex;
+    flex-direction: row;
+    gap:100px;
+    justify-content: space-between;
+    
+}
+div.topsong {
+    max-width: 100%;
+}
+div.author {
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+div.itemtopsong {
+    background-color: #1F1F1F;
+    padding:10px 15px;
+    border-radius:10px
+}
+div.itemtopsong div.des .name {
+    color:#FFFF;
+}
+div.iconplus div.circle {
+    width:100px;
+    height:100px;
+    border-radius:50%;
+    background-color: black;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+div.contain-container {
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    gap:50px
+    
+}
+div.itemtopsong .singer {
+    color:white
+}
+div.iconplus {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+div.iconplus .viewall {
+    color:white;
+}
+div.topsong .weekly{
+    color:white;
+}

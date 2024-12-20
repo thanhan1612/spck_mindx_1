@@ -1,0 +1,153 @@
+.albums {
+    background: linear-gradient(90deg, #0E9EEF, #1565c0);
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    border-radius: 10px;
+   
+}
+
+.navbar1 {
+    display: flex;
+    justify-content: space-between;  /* Spread IconBack and other items to the far sides */
+    align-items: center;
+    width: 100%;
+    padding: 10px;  /* Optional: add some padding to the navbar */
+}
+
+.back-icon {
+    display: flex;
+    align-items: center;
+    /* Ensures IconBack stays on the far left */
+}
+
+.navbar_function {
+    display: flex;
+    gap: 20px;  /* Controls the spacing between Share, About, Premium, and IconUser */
+    align-items: center;
+    margin-right: 10px;
+    color:white
+}
+
+.navbar_function span {
+    display: flex;
+    align-items: center;
+}
+
+div.playall {
+    align-self: flex-end;
+    margin-top: auto;
+    display: flex;
+    flex-direction: row;
+    gap:10px;
+    margin-left: auto;
+}
+div.mix {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+div.mix b {
+    color:#EE10B0;
+}
+div.mix h1 {
+    color:white;
+}
+div.mix p {
+    color:white
+}
+.trendingsongs1 {
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+    box-shadow: 0px 10px;
+}
+div.wrap-container {
+    display: flex;
+    flex-direction: row;
+    gap:20px
+}
+div.songsduration {
+    display: flex;
+    flex-direction: row;
+    gap:20px
+}
+
+
+.vazirmatn-div.mix p {
+  font-family: "Vazirmatn", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 100;
+  font-style: normal;
+  color: white;
+}
+div.musictable  {
+    width:100%;
+    background-color: #1565c0;
+}
+div.musictable table {
+    width:100%
+}
+div.musictable td {
+    text-align: center;
+}
+.specialtd {
+    text-align: left;
+}
+/* Apply background color to all cells except the first one */
+.albumtr td:not(:first-child) {
+    background-color: #282828; /* Example color */
+    background-image: linear-gradient(90deg, #0044cc, #7700aa); /* Example gradient */
+  }
+tr {
+    color: white;;
+}
+.albumtable {
+    border: none;
+    border-spacing: 0px 10px;
+}
+.tdheart {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+   
+}
+div.moreinfo {
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color:white;
+    width:100%
+}
+div.moreinfo div.about {
+    width:340px
+}
+div.line {
+    height:3px;
+    background-color: white;
+}
+h1.melodiescolor {
+    background:linear-gradient(to right, #EE10B0,#0E9EEF);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    color: transparent;
+}
+div.socialmediaplatforms {
+    display: flex;
+    flex-direction: row;
+    gap:15px
+}
+div.socialmedia {
+    display: flex;
+    flex-direction:column;
+    gap:80px;
+    align-items: center;
+}
+div.about p {
+    font-size: 20px;
+}

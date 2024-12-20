@@ -1,0 +1,86 @@
+div.artist1 {
+    width:85%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    border-radius: 10px;
+    background-color:#2D1E28;
+}
+div.bilboard {
+    background-image: url('/src/images/billboard.png');
+    width:100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:422px;
+    display: flex;
+    flex-direction: column;
+    gap:180px;
+
+}
+.bilboardsinger {
+    padding-left: 30px;
+    font-size: 80px;
+    color: white;
+}
+div.navbar_function {
+    padding-right: 20px;
+}
+div.famoustable table {
+    width:100%;
+    border-collapse: collapse;
+    
+
+}
+tr.artisttr  {
+   
+    margin-bottom: 20px;
+}
+.famoustable {
+    width:100%
+}
+.popularsongtable {
+    width:100%
+}
+h1.populartext {
+    color:white;
+    padding-left: 20px;
+}
+.artisttr td:not(:first-child) {
+    background-color: #282828; /* Example color */
+    background-image: #1E1E1E /* Example gradient */
+  }
+tr.artisttr td{
+    text-align: center;
+}
+button.showall {
+    background-color: #EE10B0;
+    border: none;
+    border-radius:5px;
+    color:white;
+    display:block;
+    margin:0 auto;
+    margin-top:20px;
+    height:25px;
+    width:102px
+}
+div.artistalbumbig {
+    width:100%
+}
+div.artistalbumbig h1 {
+    color:white;
+    padding-left: 20px;
+    
+}
+div.artistalbumbig b {
+    color:#0E9EEF
+}
+div.iconplus1 {
+
+}
+div.container1 {
+    display:flex;
+    flex-direction: row;
+    gap:70px
+}

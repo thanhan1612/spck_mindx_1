@@ -1,0 +1,72 @@
+div.banner {
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap:100px
+}
+div.banner div.backward {
+    background-color: black;
+    border-radius: 50%;
+    width:80px;
+    height:80px;
+    align-items: center;
+    justify-content: center;
+    display:flex
+}
+div.info {
+    position:relative;
+    display:inline-block;
+
+}
+div.banner img {
+    display:block;
+    width:100%
+
+}
+div.info_music {
+    position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-90%, -50%);
+      color: white; /* Text color */
+      font-size: 24px; /* Adjust font size */
+      font-weight: bold;
+      text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7);
+}
+div.banner_button .listennow {
+    border-radius: 10px;
+    border-color: #EE10B0;
+    color:#EE10B0;
+    background-color: transparent;
+    height:41px;
+    width:127px;
+    padding:8px 22px;
+}
+div.banner_button {
+    display:flex;
+    flex-direction: row;
+    gap:10px
+}
+div.banner_button .follow {
+    border-radius: 10px;
+    border-color:#0E9EEF;
+    color:#0E9EEF;
+    background-color: transparent;
+    height:41px;
+    width:127px;
+    padding:8px 22px;
+}
+div.info .dotted {
+    display:flex;
+    flex-direction: row;
+    gap:3px;
+    justify-content: center;
+
+}
+div.info .listennow_word {
+    color:#EE10B0;
+}
+div.info .follow_word {
+    color:#0E9EEF;
+}

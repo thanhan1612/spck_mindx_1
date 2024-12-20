@@ -1,0 +1,72 @@
+div.navbar {
+    display:flex;
+    flex-direction: row;
+    gap:20px;
+    align-items: center;
+    justify-content: space-between;
+}
+div.navbar input {
+    width:296px;
+    height:38px;
+    background-color: #656565;
+    color:white;
+    border-radius: 8px;
+}
+div.loginsignup {
+    display:flex;
+    flex-direction: row;
+    gap:20px
+}
+div.loginsignup .login {
+    background-color: #1E1E1E;
+    color:#EE10B0;
+    border:none
+}
+div.loginsignup .signup {
+    background-color: #FF3780;
+    color: black;
+    border:none
+}
+div.navbar h2 {
+    color:white
+}
+div.loginsignup button {
+    border-radius: 10px;
+    height:38px;
+    width:119px
+}
+div.input_search input {
+    padding-left:40px
+}
+div.input_search {
+    position: relative;
+    display: inline-block;
+}
+div.input_search i{
+    position: absolute;
+    top: 50%;
+    left: 10px;
+    transform: translateY(-50%);
+    font-size: 20px;
+    color: gray;
+}
+div.input_search input::placeholder {
+    color:white;
+}
+div.username h3{
+    color:white;
+}
+div.username {
+    display:flex;
+    flex-direction: row;
+    gap:20px;
+    align-items: center;
+}
+div.username button {
+    background-color: #1E1E1E;
+    color:#EE10B0;
+    border:none;
+    border-radius: 10px;
+    height:38px;
+    width:119px
+}

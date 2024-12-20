@@ -1,0 +1,102 @@
+div.loginpage {
+    
+    background-size: cover;
+    height: 100vh;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+div.loginpage div.logodisplay {
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-bottom:50px;
+    gap:30px
+}
+div.inputs {
+    display:flex;
+    flex-direction: column;
+    gap:20px
+}
+div.inputs input {
+    border-radius: 20px;
+    width:350px;
+    height:42px;
+    padding:12px 290px 12px 18px;
+    background-color: #612C4F;
+    border:none;
+    color:white;
+   
+}
+form h1 {
+    text-align: center;
+    color:white;
+}
+div.password {
+    position:relative;
+    display: inline-block;
+}
+div.password i{
+    position:absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    font-size: 20px;
+    color: gray;
+}
+div.logodisplay h1 {
+    background: linear-gradient(to right, #EE10B0, #0E9EEF);
+    -webkit-background-clip: text ;
+    color:transparent
+}
+div.forgotpass {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+div.forgotpass .forgot {
+    background-color: transparent;
+    background-repeat: no-repeat;
+    border: none;
+    cursor: pointer;
+    overflow: hidden;
+    outline: none;
+    color:white
+}
+div.forgotpass .islogin {
+    background-color: #EE10B0;
+    border:none;
+    border-radius:5px;
+    height:28px;
+    width:100px
+}
+form {
+    
+    background-image: url(/src/images/Signupformbg.png);
+    background-size:cover
+    
+}
+div.fbgglogin {
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+div.form {
+   
+}
+.createanaccount {
+    width:179px;
+    height:37px;
+    margin-left:auto;
+    border-radius:10px;
+    background-color: #EE10B0;
+    color:white
+}
+.form {
+    margin-top:100px
+}
+label {
+    color:white
+}
